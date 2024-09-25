@@ -15,5 +15,5 @@ export async function login(
   await page1.getByRole("button", { name: "Sign in" }).click();
   await page1.getByRole("button", { name: "Yes" }).click();
 
-  await page1.waitForTimeout(2000);
+  await page1.waitForTimeout(8000);
 }
